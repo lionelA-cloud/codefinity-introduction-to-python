@@ -1,0 +1,30 @@
+# Input variables
+product_type = "Dairy"  
+day_of_week = "Wednesday"
+
+if product_type == "Fruits": 
+   if day_of_week == "Monday":
+     print("10% discount on Fruits today!")
+
+if product_type == "Vegetables": 
+   if day_of_week == "Tuesday":
+     print("15% discount on Vegetables today!")
+
+if product_type == "Dairy": 
+   if day_of_week == "Wednesday":
+     print("20% discount on Dairy today!")
+
+if product_type == "Other":
+ print("no discount available.")
+
+elif product_type == "Other" and (day_of_week == "Monday"):
+    print("no special discounts today.")
+
+else:
+    print("no special discounts today.")
+    
+
+    
+
+
+
